@@ -2,6 +2,6 @@
 	"BuildId": "33043543",
 	"Modules": 
 	{
-		"WebConnectControlPlugin": "UnrealEditor-WebConnectControlPlugin-0050.dylib"
+		"WebConnectControlPlugin": "UnrealEditor-WebConnectControlPlugin.dylib"
 	}
 }

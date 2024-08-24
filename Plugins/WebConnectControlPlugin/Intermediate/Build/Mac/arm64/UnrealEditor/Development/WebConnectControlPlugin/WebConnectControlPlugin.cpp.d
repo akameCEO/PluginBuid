@@ -3871,5 +3871,8 @@
   /Volumes/SSD_Intel/UE_5.4/Engine/Source/../Intermediate/Build/Mac/UnrealEditor/Inc/UnrealEd/UHT/AssetEditorSubsystem.generated.h \
   /Volumes/SSD_Intel/Game/CretatePlugins/Plugins/WebConnectControlPlugin/Source/WebConnectControlPlugin/Private/WebConnectControlPlugin.cpp \
   /Volumes/SSD_Intel/Game/CretatePlugins/Plugins/WebConnectControlPlugin/Intermediate/Build/Mac/arm64/UnrealEditor/Development/WebConnectControlPlugin/Definitions.WebConnectControlPlugin.h \
-  /Volumes/SSD_Intel/Game/CretatePlugins/Plugins/WebConnectControlPlugin/Source/WebConnectControlPlugin/Public/WebConnectControlPlugin.h \
-  Runtime/Core/Public/Modules/ModuleManager.h
+  /Volumes/SSD_Intel/Game/CretatePlugins/Plugins/WebConnectControlPlugin/Source/WebConnectControlPlugin/Public/WebConnectControlPluginBPLibrary.h \
+  Runtime/Engine/Classes/Kismet/BlueprintFunctionLibrary.h \
+  /Volumes/SSD_Intel/Game/CretatePlugins/Plugins/WebConnectControlPlugin/Intermediate/Build/Mac/UnrealEditor/Inc/WebConnectControlPlugin/UHT/WebConnectControlPluginBPLibrary.generated.h \
+  Runtime/CoreUObject/Public/UObject/ObjectMacros.h \
+  Runtime/CoreUObject/Public/UObject/ScriptMacros.h

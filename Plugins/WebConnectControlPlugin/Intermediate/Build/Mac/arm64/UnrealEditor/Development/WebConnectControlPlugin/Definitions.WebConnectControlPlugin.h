@@ -12,6 +12,7 @@
 #define UE_ENABLE_INCLUDE_ORDER_DEPRECATED_IN_5_4 0
 #define UE_PROJECT_NAME CretatePlugins
 #define UE_TARGET_NAME CretatePluginsEditor
+#define LWS_USE_LIBUV 0
 #define UE_MODULE_NAME "WebConnectControlPlugin"
 #define UE_PLUGIN_NAME "WebConnectControlPlugin"
 #define IMPLEMENT_ENCRYPTION_KEY_REGISTRATION() 

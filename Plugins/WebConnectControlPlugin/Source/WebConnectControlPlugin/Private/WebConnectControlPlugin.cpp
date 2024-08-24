@@ -1,7 +1,6 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-#include "WebConnectControlPlugin.h"
-
+#include "WebConnectControlPluginBPLibrary.h"
 #define LOCTEXT_NAMESPACE "FWebConnectControlPluginModule"
 
 void FWebConnectControlPluginModule::StartupModule()

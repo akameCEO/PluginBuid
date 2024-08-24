@@ -16,58 +16,58 @@ WEBCONNECTCONTROLPLUGIN_API UClass* Z_Construct_UClass_UWebConnectControlPluginB
 WEBCONNECTCONTROLPLUGIN_API UClass* Z_Construct_UClass_UWebConnectControlPluginBPLibrary_NoRegister();
 // End Cross Module References
 
-// Begin Class UWebConnectControlPluginBPLibrary Function SimpleHttpGet
-struct Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_SimpleHttpGet_Statics
+// Begin Class UWebConnectControlPluginBPLibrary Function GetRequest
+struct Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_GetRequest_Statics
 {
-	struct WebConnectControlPluginBPLibrary_eventSimpleHttpGet_Parms
+	struct WebConnectControlPluginBPLibrary_eventGetRequest_Parms
 	{
-		FString Url;
+		FString URL;
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "Category", "WebConnect" },
+		{ "Category", "WebClient" },
 		{ "ModuleRelativePath", "Public/WebConnectControlPluginBPLibrary.h" },
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Url_MetaData[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_URL_MetaData[] = {
 		{ "NativeConst", "" },
 	};
 #endif // WITH_METADATA
-	static const UECodeGen_Private::FStrPropertyParams NewProp_Url;
+	static const UECodeGen_Private::FStrPropertyParams NewProp_URL;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_SimpleHttpGet_Statics::NewProp_Url = { "Url", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(WebConnectControlPluginBPLibrary_eventSimpleHttpGet_Parms, Url), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Url_MetaData), NewProp_Url_MetaData) };
-const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_SimpleHttpGet_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_SimpleHttpGet_Statics::NewProp_Url,
+const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_GetRequest_Statics::NewProp_URL = { "URL", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(WebConnectControlPluginBPLibrary_eventGetRequest_Parms, URL), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_URL_MetaData), NewProp_URL_MetaData) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_GetRequest_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_GetRequest_Statics::NewProp_URL,
 };
-static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_SimpleHttpGet_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_SimpleHttpGet_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UWebConnectControlPluginBPLibrary, nullptr, "SimpleHttpGet", nullptr, nullptr, Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_SimpleHttpGet_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_SimpleHttpGet_Statics::PropPointers), sizeof(Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_SimpleHttpGet_Statics::WebConnectControlPluginBPLibrary_eventSimpleHttpGet_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_SimpleHttpGet_Statics::Function_MetaDataParams), Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_SimpleHttpGet_Statics::Function_MetaDataParams) };
-static_assert(sizeof(Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_SimpleHttpGet_Statics::WebConnectControlPluginBPLibrary_eventSimpleHttpGet_Parms) < MAX_uint16);
-UFunction* Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_SimpleHttpGet()
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_GetRequest_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_GetRequest_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UWebConnectControlPluginBPLibrary, nullptr, "GetRequest", nullptr, nullptr, Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_GetRequest_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_GetRequest_Statics::PropPointers), sizeof(Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_GetRequest_Statics::WebConnectControlPluginBPLibrary_eventGetRequest_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_GetRequest_Statics::Function_MetaDataParams), Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_GetRequest_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_GetRequest_Statics::WebConnectControlPluginBPLibrary_eventGetRequest_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_GetRequest()
 {
 	static UFunction* ReturnFunction = nullptr;
 	if (!ReturnFunction)
 	{
-		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_SimpleHttpGet_Statics::FuncParams);
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_GetRequest_Statics::FuncParams);
 	}
 	return ReturnFunction;
 }
-DEFINE_FUNCTION(UWebConnectControlPluginBPLibrary::execSimpleHttpGet)
+DEFINE_FUNCTION(UWebConnectControlPluginBPLibrary::execGetRequest)
 {
-	P_GET_PROPERTY(FStrProperty,Z_Param_Url);
+	P_GET_PROPERTY(FStrProperty,Z_Param_URL);
 	P_FINISH;
 	P_NATIVE_BEGIN;
-	UWebConnectControlPluginBPLibrary::SimpleHttpGet(Z_Param_Url);
+	UWebConnectControlPluginBPLibrary::GetRequest(Z_Param_URL);
 	P_NATIVE_END;
 }
-// End Class UWebConnectControlPluginBPLibrary Function SimpleHttpGet
+// End Class UWebConnectControlPluginBPLibrary Function GetRequest
 
 // Begin Class UWebConnectControlPluginBPLibrary
 void UWebConnectControlPluginBPLibrary::StaticRegisterNativesUWebConnectControlPluginBPLibrary()
 {
 	UClass* Class = UWebConnectControlPluginBPLibrary::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
-		{ "SimpleHttpGet", &UWebConnectControlPluginBPLibrary::execSimpleHttpGet },
+		{ "GetRequest", &UWebConnectControlPluginBPLibrary::execGetRequest },
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
@@ -82,12 +82,11 @@ struct Z_Construct_UClass_UWebConnectControlPluginBPLibrary_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 		{ "IncludePath", "WebConnectControlPluginBPLibrary.h" },
 		{ "ModuleRelativePath", "Public/WebConnectControlPluginBPLibrary.h" },
-		{ "ObjectInitializerConstructorDeclared", "" },
 	};
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_SimpleHttpGet, "SimpleHttpGet" }, // 1798474597
+		{ &Z_Construct_UFunction_UWebConnectControlPluginBPLibrary_GetRequest, "GetRequest" }, // 2146133
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -127,6 +126,7 @@ template<> WEBCONNECTCONTROLPLUGIN_API UClass* StaticClass<UWebConnectControlPlu
 {
 	return UWebConnectControlPluginBPLibrary::StaticClass();
 }
+UWebConnectControlPluginBPLibrary::UWebConnectControlPluginBPLibrary(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 DEFINE_VTABLE_PTR_HELPER_CTOR(UWebConnectControlPluginBPLibrary);
 UWebConnectControlPluginBPLibrary::~UWebConnectControlPluginBPLibrary() {}
 // End Class UWebConnectControlPluginBPLibrary
@@ -135,10 +135,10 @@ UWebConnectControlPluginBPLibrary::~UWebConnectControlPluginBPLibrary() {}
 struct Z_CompiledInDeferFile_FID_Game_CretatePlugins_Plugins_WebConnectControlPlugin_Source_WebConnectControlPlugin_Public_WebConnectControlPluginBPLibrary_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UWebConnectControlPluginBPLibrary, UWebConnectControlPluginBPLibrary::StaticClass, TEXT("UWebConnectControlPluginBPLibrary"), &Z_Registration_Info_UClass_UWebConnectControlPluginBPLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UWebConnectControlPluginBPLibrary), 4241810739U) },
+		{ Z_Construct_UClass_UWebConnectControlPluginBPLibrary, UWebConnectControlPluginBPLibrary::StaticClass, TEXT("UWebConnectControlPluginBPLibrary"), &Z_Registration_Info_UClass_UWebConnectControlPluginBPLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UWebConnectControlPluginBPLibrary), 716071078U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Game_CretatePlugins_Plugins_WebConnectControlPlugin_Source_WebConnectControlPlugin_Public_WebConnectControlPluginBPLibrary_h_369292000(TEXT("/Script/WebConnectControlPlugin"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Game_CretatePlugins_Plugins_WebConnectControlPlugin_Source_WebConnectControlPlugin_Public_WebConnectControlPluginBPLibrary_h_1715267152(TEXT("/Script/WebConnectControlPlugin"),
 	Z_CompiledInDeferFile_FID_Game_CretatePlugins_Plugins_WebConnectControlPlugin_Source_WebConnectControlPlugin_Public_WebConnectControlPluginBPLibrary_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Game_CretatePlugins_Plugins_WebConnectControlPlugin_Source_WebConnectControlPlugin_Public_WebConnectControlPluginBPLibrary_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

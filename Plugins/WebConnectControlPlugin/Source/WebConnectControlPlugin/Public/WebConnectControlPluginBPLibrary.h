@@ -1,6 +1,5 @@
 #pragma once
 
-#include "CoreMinimal.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "WebConnectControlPluginBPLibrary.generated.h"
 
@@ -10,8 +9,6 @@ class WEBCONNECTCONTROLPLUGIN_API UWebConnectControlPluginBPLibrary : public UBl
     GENERATED_BODY()
 
 public:
-    UWebConnectControlPluginBPLibrary(const FObjectInitializer& ObjectInitializer);
-
-    UFUNCTION(BlueprintCallable, Category = "WebConnect")
-    static void SimpleHttpGet(const FString& Url);
+    UFUNCTION(BlueprintCallable, Category = "WebClient")
+    static void GetRequest(const FString& URL);
 };
