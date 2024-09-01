@@ -286,7 +286,7 @@
 -I"Editor/AnimationEditMode/Public"
 -I"/Volumes/SSD_Intel/Game/CretatePlugins/Plugins/WebControlAPlugin/Intermediate/Build/Mac/UnrealEditor/Inc/WebControlAPlugin/UHT"
 -I"/Volumes/SSD_Intel/Game/CretatePlugins/Plugins/WebControlAPlugin/Source/WebControlAPlugin/ThirdParty/libwebsockets/MacOS/include"
--I"/Volumes/SSD_Intel/Game/CretatePlugins/Plugins/WebControlAPlugin/Source/WebControlAPlugin/ThirdParty/OpenSSL/include"
+-I"/Volumes/SSD_Intel/Game/CretatePlugins/Plugins/WebControlAPlugin/Source/WebControlAPlugin/ThirdParty/OpenSSL/MacOS/include"
 -I"/Volumes/SSD_Intel/Game/CretatePlugins/Plugins/WebControlAPlugin/Source"
 -I"/Volumes/SSD_Intel/Game/CretatePlugins/Plugins/WebControlAPlugin/Source/WebControlAPlugin/Public"
 -isystem"ThirdParty/LibTiff/Source/Mac"

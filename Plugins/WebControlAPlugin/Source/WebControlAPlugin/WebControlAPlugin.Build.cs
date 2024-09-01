@@ -37,17 +37,11 @@ public class WebControlAPlugin : ModuleRules
         PublicAdditionalLibraries.Add(Path.Combine(LibWebSocketsPath, "lib", "libwebsockets.a")); 
 
         // OpenSSL の設定
-        string OpenSSLPath = Path.Combine(ModuleDirectory, "ThirdParty/OpenSSL");
+        string OpenSSLPath = Path.Combine(ModuleDirectory, "ThirdParty/OpenSSL/MacOS");
         PublicIncludePaths.Add(Path.Combine(OpenSSLPath, "include"));
         PublicSystemLibraryPaths.Add(Path.Combine(OpenSSLPath, "lib"));
-
-        // Mac の場合のライブラリ設定
-        if (Target.Platform == UnrealTargetPlatform.Mac)
-        {
-            PublicAdditionalLibraries.Add(Path.Combine(OpenSSLPath, "lib", "libssl.a"));
-            PublicAdditionalLibraries.Add(Path.Combine(OpenSSLPath, "lib", "libcrypto.a"));
-        }
-        // 他のプラットフォームの設定も必要に応じて追加
+        PublicAdditionalLibraries.Add(Path.Combine(OpenSSLPath, "lib", "libssl.a"));
+        PublicAdditionalLibraries.Add(Path.Combine(OpenSSLPath, "lib", "libcrypto.a"));
         
         // Private dependencies
         PrivateDependencyModuleNames.AddRange(
@@ -57,7 +51,6 @@ public class WebControlAPlugin : ModuleRules
                 "Engine",
                 "Slate",
                 "SlateCore"
-                // Unreal EngineのOpenSSLモジュールを使わない場合、ここから "OpenSSL" を削除
             }
         );
         
