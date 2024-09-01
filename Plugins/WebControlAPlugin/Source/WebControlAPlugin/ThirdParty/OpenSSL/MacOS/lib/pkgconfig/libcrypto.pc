@@ -1,0 +1,11 @@
+libdir=/Volumes/SSD_Intel/tmp/openssl-3.3.1/Compled/lib
+includedir=/Volumes/SSD_Intel/tmp/openssl-3.3.1/Compled/include
+enginesdir=/Volumes/SSD_Intel/tmp/openssl-3.3.1/Compled/lib/engines-3
+modulesdir=/Volumes/SSD_Intel/tmp/openssl-3.3.1/Compled/lib/ossl-modules
+
+Name: OpenSSL-libcrypto
+Description: OpenSSL cryptography library
+Version: 3.3.1
+Libs: -L${libdir} -lcrypto
+Libs.private: 
+Cflags: -I${includedir}
